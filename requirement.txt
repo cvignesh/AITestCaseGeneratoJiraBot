@@ -1,0 +1,18 @@
+streamlit>=1.32.0
+pandas>=2.2.0
+openpyxl>=3.1.2
+requests>=2.31.0
+openai>=1.14.0  # Only needed if using OpenAI
+jira
+langchain==0.1.16
+openai>=1.0.0
+python-dotenv>=1.0.0
+urllib3>=2.0.0
+tiktoken>=0.5.0
+langchain==0.1.16
+openai>=1.0.0
+python-dotenv>=1.0.0
+pandas>=2.0.0
+urllib3>=2.0.0
+tiktoken>=0.5.0
+numpy==1.26.4; sys_platform == "win32" and python_version >= "3.8" and python_version < "3.12"
