@@ -1,4 +1,5 @@
 import streamlit as st
+st.cache_data.clear()
 import pandas as pd
 import requests
 from requests.auth import HTTPBasicAuth
