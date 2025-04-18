@@ -6,7 +6,7 @@ from requests.auth import HTTPBasicAuth
 from urllib.parse import urljoin
 import re
 import time
-from langchain.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 from langchain.agents import initialize_agent, AgentType
 from langchain.memory import ConversationBufferMemory
 from langchain.tools import tool
